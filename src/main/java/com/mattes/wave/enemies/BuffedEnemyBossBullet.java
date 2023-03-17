@@ -1,12 +1,10 @@
 package com.mattes.wave.enemies;
 
-import main.*;
 
-import java.awt.Color;
-import java.awt.Graphics;
-import java.awt.Rectangle;
+import com.mattes.wave.*;
+
+import java.awt.*;
 import java.util.Random;
-
 
 public class BuffedEnemyBossBullet extends GameObject {
     private Handler handler;

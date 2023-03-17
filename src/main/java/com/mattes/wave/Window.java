@@ -2,19 +2,12 @@ package com.mattes.wave;
 
 import javax.swing.*;
 import java.awt.*;
-import java.io.Serial;
 
 public class Window extends Canvas {
     private JFrame frame;
 
-
-
-
-    @Serial
-    private static final long serialVersionUID = -4810618286807932601L;
-
     public Window(int width, int height, String title, Game game) {
-        frame  = new JFrame(title);
+        frame = new JFrame(title);
 
         frame.setPreferredSize(new Dimension(width, height));
         frame.setMaximumSize(new Dimension(width, height));
